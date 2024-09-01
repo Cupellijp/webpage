@@ -7,8 +7,8 @@
 
 /* Body styles for overall layout and readability */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f9;
+    font-family: 'Courier New', Courier, monospace; /* Typewriter-like typography */
+    background-color: #f5f5f0; /* Creme background */
     color: #333;
     line-height: 1.6;
     margin: 0;
@@ -21,9 +21,10 @@ body {
 .container {
     max-width: 800px;
     background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border: 1px solid #dcdcdc; /* Subtle border */
 }
 
 /* Header section styling */
@@ -33,8 +34,8 @@ header {
 }
 
 header h1 {
-    font-size: 2.5rem;
-    color: #4b9cd3;
+    font-size: 2rem;
+    color: #4b4b4b;
     margin-bottom: 10px;
 }
 
@@ -45,11 +46,19 @@ header p {
 
 /* Section titles */
 h2 {
-    font-size: 1.8rem;
-    color: #4b9cd3;
-    border-bottom: 2px solid #4b9cd3;
+    font-size: 1.5rem;
+    color: #4b4b4b;
+    border-bottom: 1px solid #4b4b4b;
     padding-bottom: 5px;
     margin-bottom: 20px;
+}
+
+/* Subsection titles */
+h3 {
+    font-size: 1.25rem;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 /* List styles */
@@ -60,7 +69,7 @@ ul {
 }
 
 li {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 10px;
     line-height: 1.5;
 }
