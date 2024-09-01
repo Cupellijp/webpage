@@ -1,53 +1,93 @@
-/* Stylesheet for My IT Certifications */
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* Body styles for overall layout and readability */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f8ff; /* Light blue background */
-    color: #333; /* Dark text for good contrast */
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
 }
 
+/* Container for centering the content */
 .container {
-    background-color: #fff; /* White background for the content */
-    padding: 20px 40px;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
-    text-align: center; /* Center align text */
-    max-width: 600px; /* Maximum width for better readability */
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
 }
 
-h1 {
-    font-size: 2.5rem; /* Large, bold header */
-    color: #4b9cd3; /* Fun, blue color */
+/* Header section styling */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #4b9cd3;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Section titles */
+h2 {
+    font-size: 1.8rem;
+    color: #4b9cd3;
+    border-bottom: 2px solid #4b9cd3;
+    padding-bottom: 5px;
     margin-bottom: 20px;
 }
 
+/* List styles */
 ul {
-    list-style-type: none; /* Remove bullet points */
+    list-style-type: none;
     padding: 0;
+    margin-bottom: 20px;
 }
 
 li {
-    font-size: 1.2rem; /* Slightly larger text for readability */
-    margin-bottom: 15px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    line-height: 1.5;
 }
 
+/* Link styling */
 a {
-    text-decoration: none; /* Remove underline from links */
-    color: #4b9cd3; /* Fun, blue color */
-    transition: color 0.3s ease; /* Smooth transition for hover effect */
+    color: #4b9cd3;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #ff6347; /* Change color to a fun orange on hover */
+    color: #ff6347;
 }
 
+/* Paragraph styles */
 p {
-    margin-top: 20px;
     font-size: 1rem;
-    color: #555; /* Slightly muted text color */
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #555;
 }
