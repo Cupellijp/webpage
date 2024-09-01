@@ -1,0 +1,23 @@
+{
+    "name": "Joel Cupelli",
+    "title": "Cybersecurity Professional",
+    "certifications": [
+        {
+            "name": "A+ CompTIA",
+            "link": "https://www.comptia.org/certifications/a"
+        },
+        {
+            "name": "Azure Fundamentals Microsoft",
+            "link": "https://learn.microsoft.com/en-us/certifications/azure-fundamentals/"
+        },
+        {
+            "name": "Cybersecurity Google",
+            "link": "https://www.google.com/certifications/"
+        }
+    ],
+    "about": "I am a dedicated Cybersecurity professional with a passion for safeguarding digital environments. With a solid foundation in various IT certifications and hands-on experience, I am well-prepared to tackle the challenges of today's cybersecurity landscape. I thrive in ever-changing environments that require adaptive and forward-thinking strategies to protect against emerging threats. As I look for new opportunities, I aim to bring my skills and knowledge to an organization that values security and innovation.",
+    "linkedin": {
+        "text": "Joel Cupelli",
+        "link": "https://www.linkedin.com/in/joel-cupelli-68068326"
+    }
+}
