@@ -1,6 +1,12 @@
 {
     "name": "Joel Cupelli",
     "title": "Cybersecurity Professional",
+    "contact": {
+        "phone": "(608) 772–7260",
+        "email": "cupelli.joel@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/joel-cupelli-68068326",
+        "address": "4341 Steele St., Denver, CO 80216"
+    },
     "certifications": [
         {
             "name": "A+ CompTIA",
@@ -9,15 +15,106 @@
         {
             "name": "Azure Fundamentals Microsoft",
             "link": "https://learn.microsoft.com/en-us/certifications/azure-fundamentals/"
-        },
-        {
-            "name": "Cybersecurity Google",
-            "link": "https://www.google.com/certifications/"
         }
     ],
-    "about": "I am a dedicated Cybersecurity professional with a passion for safeguarding digital environments. With a solid foundation in various IT certifications and hands-on experience, I am well-prepared to tackle the challenges of today's cybersecurity landscape. I thrive in ever-changing environments that require adaptive and forward-thinking strategies to protect against emerging threats. As I look for new opportunities, I aim to bring my skills and knowledge to an organization that values security and innovation.",
-    "linkedin": {
-        "text": "Joel Cupelli",
-        "link": "https://www.linkedin.com/in/joel-cupelli-68068326"
-    }
+    "skills": {
+        "Languages & Certifications": [
+            "Comfortable with Python, JavaScript, BASH, PowerShell.",
+            "A+ and Microsoft Azure.",
+            "Familiar with CSS and HTML."
+        ],
+        "Hardware & Cloud": [
+            "Experienced with Microsoft, Linux, Apple, iOS, and Android operating systems.",
+            "Certified in Microsoft Azure Products (Entra, IaaS, PaaS, SaaS, Migration, Analytics, Security).",
+            "Administration of VMs on bare-metal and Azure.",
+            "Familiar with Microsoft Services Hub."
+        ],
+        "Home Lab Environment": [
+            "Consists of Linux distros (Debian, Fedora, Mint, Raspbian), and VMs.",
+            "Unifi devices for networking and security.",
+            "Small devices like Raspberry Pi, PiHole, Recursive DNS, NAS, and retro gaming rigs."
+        ],
+        "Communication & Documentation": [
+            "Excellent documentation skills.",
+            "Clear and concise written and verbal communication.",
+            "20+ years of customer service in forward-facing roles.",
+            "Worked in both the field and office, face-to-face, and over the phone/video conferencing."
+        ],
+        "People Skills": [
+            "Background in sales, office management, and other forward-facing environments where collaborating with diverse teams and clientele was at the core of the job."
+        ]
+    },
+    "experience": [
+        {
+            "company": "Intermountain Health / Beacon Hill Staffing",
+            "location": "Denver, CO",
+            "title": "IT Technician",
+            "dates": "‘24 - Current",
+            "responsibilities": [
+                "Prepare, deliver, install designated hardware to their locations.",
+                "Document deployments and report any discrepancies or concerns.",
+                "Add software packages and monitor progress.",
+                "Identify and retrieve hardware for recycling or redeployment.",
+                "Configure prepared devices."
+            ]
+        },
+        {
+            "company": "Hausmann-Johnson Insurance / American Family Insurance",
+            "location": "Littleton, CO",
+            "title": "Producer, Marketing Associate, & Licensed Insurance Agent",
+            "dates": "‘12–13, ‘21–23",
+            "responsibilities": [
+                "Self-directed positions of successively greater responsibility.",
+                "Achieved advanced designations in property/casualty and life/health insurance.",
+                "Managed sensitive and confidential information from clients, carriers, and company documentation including portfolios.",
+                "Negotiated contract terms, coverage, and pricing.",
+                "Consistently maximized both product quality for the consumer and revenue for the company."
+            ]
+        },
+        {
+            "company": "Highline Medical Solutions",
+            "location": "Vail, CO",
+            "title": "Operations & Testing",
+            "dates": "‘20–21",
+            "responsibilities": [
+                "Managed numerous COVID-19 testing and vaccination sites throughout Colorado from setup to teardown.",
+                "Supervised large and small teams of people in highly regulated environments.",
+                "Maintained a high level of expertise about subject matter and maintained complex logistics.",
+                "Helped thousands of patients during this incredibly difficult time."
+            ]
+        },
+        {
+            "company": "Davis Graham & Stubbs LLP",
+            "location": "Denver, CO",
+            "title": "Hospitality & Event Administration",
+            "dates": "‘17–20",
+            "responsibilities": [
+                "Planned and oversaw large-scale, high-profile events for the law firm.",
+                "Optimized resources while staying within tight budgets.",
+                "Secured favorable contracts from outside vendors.",
+                "Fostered and nurtured community relationships.",
+                "Maintained a high level of attention to detail, strong soft skills, while solving problems under pressure."
+            ]
+        }
+    ],
+    "education": {
+        "institution": "University of Wisconsin",
+        "location": "Madison, WI",
+        "degree": "Bachelor of Arts in English",
+        "graduation_year": "‘09"
+    },
+    "interests": [
+        {
+            "title": "Gaming",
+            "description": "I play a variety of games, including one where I serve as manager, life coach, and HR for up to 40 other people in challenging environments as we work to meet mutual goals."
+        },
+        {
+            "title": "Music",
+            "description": "I am a pianist, and I have spent many years as a performing musician."
+        },
+        {
+            "title": "Sports & Outdoors",
+            "description": "I have played soccer at a high level since childhood, which I continue in league play now, and I love the outdoors—ski, hike, run, swim, and camp!"
+        }
+    ]
 }
